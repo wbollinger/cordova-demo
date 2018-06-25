@@ -1,0 +1,31 @@
+{
+	"preset": "crockford",
+	"requireBlocksOnNewline": null,
+	"requireMultipleVarDecl": null,
+	"requireVarDeclFirst": null,
+	"disallowDanglingUnderscores": null,
+	"maximumLineLength": 120,
+	"requireSpaceAfterKeywords": [
+		"do",
+		"for",
+		"if",
+		"else",
+		"switch",
+		"case",
+		"try",
+		"catch",
+		"void",
+		"while",
+		"with",
+		"return",
+		"typeof"
+	],
+	"excludeFiles": [
+		"doc",
+		"src/bower_components",
+		"src/kss",
+		"src/scripts/vendor",
+		"test",
+		"GruntFile.js"
+	]
+}
